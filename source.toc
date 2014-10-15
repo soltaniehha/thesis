@@ -4,20 +4,23 @@
 \contentsline {section}{\numberline {I}Introduction}{2}{}
 \contentsline {subsection}{\numberline {A}Interacting systems in low dimensions}{2}{}
 \contentsline {subsection}{\numberline {B}The Hubbard and the $t-J$ Hamiltonian models}{3}{}
-\contentsline {section}{\numberline {II}Spin-charge separation and the Ogata-Shiba Wave-Function}{5}{}
-\contentsline {subsection}{\numberline {A}Generalization of the Ogata-Shiba wave-function to infinite spin temperature}{5}{}
-\contentsline {subsection}{\numberline {B}Applying the Factorized Wave-Function on Different Hamiltonian Models}{6}{}
-\contentsline {subsubsection}{\numberline {1}Two Coupled $t-J$ Chains}{6}{}
-\contentsline {subsubsection}{\numberline {2}$t-J$ Kondo Chains}{11}{}
-\contentsline {section}{\numberline {III}Spectral signatures of spin-charge separation}{16}{}
-\contentsline {subsection}{\numberline {A}Method}{16}{}
-\contentsline {subsection}{\numberline {B}Generalization to finite temperatures}{19}{}
-\contentsline {subsection}{\numberline {C}Spin-incoherent behavior}{21}{}
-\contentsline {section}{\numberline {IV}Phonons}{22}{}
-\contentsline {subsection}{\numberline {A}The Hubbard-Holstein model}{23}{}
-\contentsline {subsection}{\numberline {B}Understanding the spectrum of the HH model, interplay between charge, spin and phonons}{26}{}
-\contentsline {section}{\numberline {V}Future Work}{29}{}
-\contentsline {section}{\numberline {VI}Dissemination}{30}{}
-\contentsline {subsection}{\numberline {A}Articles}{30}{}
-\contentsline {subsection}{\numberline {B}Conferences and talks}{30}{}
-\contentsline {section}{\numberline {}References}{31}{}
+\contentsline {section}{\numberline {II}Numberical Techniques}{5}{}
+\contentsline {subsection}{\numberline {A}Exact Diagonalization}{5}{}
+\contentsline {subsection}{\numberline {B}Density Matrix Renormalization Method (DMRG)}{6}{}
+\contentsline {section}{\numberline {III}Spin-charge separation and the Ogata-Shiba Wave-Function}{7}{}
+\contentsline {subsection}{\numberline {A}Generalization of the Ogata-Shiba wave-function to infinite spin temperature}{7}{}
+\contentsline {subsection}{\numberline {B}Applying the Factorized Wave-Function on Different Hamiltonian Models}{8}{}
+\contentsline {subsubsection}{\numberline {1}Two Coupled $t-J$ Chains}{8}{}
+\contentsline {subsubsection}{\numberline {2}$t-J$ Kondo Chains}{13}{}
+\contentsline {section}{\numberline {IV}Spectral signatures of spin-charge separation}{18}{}
+\contentsline {subsection}{\numberline {A}Method}{18}{}
+\contentsline {subsection}{\numberline {B}Generalization to finite temperatures}{21}{}
+\contentsline {subsection}{\numberline {C}Spin-incoherent behavior}{23}{}
+\contentsline {section}{\numberline {V}Phonons}{24}{}
+\contentsline {subsection}{\numberline {A}The Hubbard-Holstein model}{25}{}
+\contentsline {subsection}{\numberline {B}Understanding the spectrum of the HH model, interplay between charge, spin and phonons}{28}{}
+\contentsline {section}{\numberline {VI}Future Work}{31}{}
+\contentsline {section}{\numberline {VII}Dissemination}{32}{}
+\contentsline {subsection}{\numberline {A}Articles}{32}{}
+\contentsline {subsection}{\numberline {B}Conferences and talks}{32}{}
+\contentsline {section}{\numberline {}References}{33}{}

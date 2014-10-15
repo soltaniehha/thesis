@@ -90,6 +90,46 @@ where $\vec{S}_i$ is the spin operator, $J=4t^2/U$, and we consider the implicit
  The exchange energy between spins is parametrized by $J$. Unless otherwise specified, we express all energies in units of the hopping parameter $t$. Notice that at half-filling, the system becomes a Mott insulator with one particle per site, and the model reduces to the Heisenberg Hamiltonian.
 
 \pagebreak
+\section {Numberical Techniques}
+
+\subsection {Exact Diagonalization}
+
+It is possible to calculate the eigenstates of the full Hamiltonian matrix of a finite interacting quantum system by numerical tools. For instance considering the Hubbard Hamiltonian (\ref{H_Hub}), one can translate this Hamiltonian into a matrix for a finite system size and solve it to find the eigenstates and eigenfunctions. The Hilbert space and as a result the corresponding matrix grows very fast by the system size and specifically for this model equals to $4^L$, since there exist four possible states for each given site. Without applying any symmetries it is not possible to solve this matrix for systems larger than $L=16$ by available computer power. Each site can be in one of the four possible states:
+
+\begin{itemize}
+  \item $|0\rangle$ no electron on site $i$,
+  \item $c^\dagger_{i\uparrow} |0\rangle$ one $\uparrow$-electron on site $i$,
+  \item $c^\dagger_{i\downarrow} |0\rangle$ one $\downarrow$-electron on site $i$,
+  \item $c^\dagger_{i\uparrow} c^\dagger_{i\downarrow} |0\rangle$ two electrons on site $i$.
+\end{itemize}
+  
+Having all these bases one can construct the Hamiltonian matrix by applying $H$ on every state to get the elements. The Hubbard Hamiltonian has two terms, interaction which is a diagonal term and hopping, an off-diagonal one. In order to illustrate it consider a given state $| \psi \rangle$ on a lattice with $L=4$:
+
+\begin{equation}
+| \psi \rangle=| \uparrow 2 \ 0 \ 0 \rangle=c^\dagger_{3\uparrow} c^\dagger_{2\uparrow} c^\dagger_{2\downarrow}| 0 \rangle. \nonumber
+\end{equation} 
+
+We can also present this state by two up and down states in a bit representation as  
+
+\begin{equation}
+| \uparrow 2 \uparrow 0 \rangle=| \uparrow \ \uparrow 0 \ 0 \rangle \times | 0 \downarrow 0 \ 0 \rangle=1100 \times 0100. \nonumber
+\end{equation} 
+
+For periodic boundary conditions minus signs are possible when hopping over the boundaries. Basically anytime an electron goes around the boundary and the number of electrons it passes through is odd a minus sign is added to the given state. Here is how different terms of Hamiltonian (\ref{H_Hub}) acts on the afformentioned $| \psi \rangle$:
+
+\begin{description}
+  \item $\uparrow$-hopping: $1100 \times 0100 \rightarrow -t \ (1010 - 0101) \times 0100$ 
+  \item $\downarrow$-hopping: $1100 \times 0100 \rightarrow -t \ 1100  \times (1000 + 0010)$
+  \item U-term: $1100 \times 0100 \rightarrow U \ 1100 \times 0100$ 
+\end{description}
+
+
+
+
+
+\subsection {Density Matrix Renormalization Method (DMRG)}
+
+\pagebreak
 \section {Spin-charge separation and the Ogata-Shiba Wave-Function}
 
 In the large $U \rightarrow \infty$ limit (or $J \rightarrow 0$ in the $t-J$ model), the ground-state of these Hamiltonians can be described by Ogata and Shiba's factorized wave-function \cite{Ogata1990},

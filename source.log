@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 AUG 2014 15:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  14 OCT 2014 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -305,76 +305,84 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (5.95001pt too wide) detected at line 11
- \OT1/cmr/m/n/10.95 11
- []
-
-
-Overfull \hbox (5.95001pt too wide) detected at line 12
- \OT1/cmr/m/n/10.95 16
- []
-
-
-Overfull \hbox (5.95001pt too wide) detected at line 13
- \OT1/cmr/m/n/10.95 16
- []
-
-
 Overfull \hbox (5.95001pt too wide) detected at line 14
- \OT1/cmr/m/n/10.95 19
+ \OT1/cmr/m/n/10.95 13
  []
 
 
 Overfull \hbox (5.95001pt too wide) detected at line 15
- \OT1/cmr/m/n/10.95 21
+ \OT1/cmr/m/n/10.95 18
  []
 
 
 Overfull \hbox (5.95001pt too wide) detected at line 16
- \OT1/cmr/m/n/10.95 22
+ \OT1/cmr/m/n/10.95 18
  []
 
 
 Overfull \hbox (5.95001pt too wide) detected at line 17
- \OT1/cmr/m/n/10.95 23
+ \OT1/cmr/m/n/10.95 21
  []
 
 
 Overfull \hbox (5.95001pt too wide) detected at line 18
- \OT1/cmr/m/n/10.95 26
+ \OT1/cmr/m/n/10.95 23
  []
 
 
 Overfull \hbox (5.95001pt too wide) detected at line 19
- \OT1/cmr/m/n/10.95 29
+ \OT1/cmr/m/n/10.95 24
  []
 
 
 Overfull \hbox (5.95001pt too wide) detected at line 20
- \OT1/cmr/m/n/10.95 30
+ \OT1/cmr/m/n/10.95 25
  []
 
 
 Overfull \hbox (5.95001pt too wide) detected at line 21
- \OT1/cmr/m/n/10.95 30
+ \OT1/cmr/m/n/10.95 28
  []
 
 
 Overfull \hbox (5.95001pt too wide) detected at line 22
- \OT1/cmr/m/n/10.95 30
+ \OT1/cmr/m/n/10.95 31
  []
 
 
 Overfull \hbox (5.95001pt too wide) detected at line 23
- \OT1/cmr/m/n/10.95 31
+ \OT1/cmr/m/n/10.95 32
+ []
+
+
+Overfull \hbox (5.95001pt too wide) detected at line 24
+ \OT1/cmr/m/n/10.95 32
+ []
+
+[1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (5.95001pt too wide) detected at line 25
+ \OT1/cmr/m/n/10.95 32
+ []
+
+
+Overfull \hbox (5.95001pt too wide) detected at line 26
+ \OT1/cmr/m/n/10.95 33
  []
 
 )
 \tf@toc=\write3
 \openout3 = `source.toc'.
 
- [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] [4] [5] [6]
+ [2] [3] [4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 100.
+
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 100.
+
+[5] [6] [7] [8]
 Package epstopdf Info: Source file: <figs/fig1.eps>
 (epstopdf)                    date: 2012-09-20 16:22:38
 (epstopdf)                    size: 226894 bytes
@@ -383,20 +391,20 @@ Package epstopdf Info: Source file: <figs/fig1.eps>
 (epstopdf)                    size: 40031 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig1-eps-converted-to
 .pdf figs/fig1.eps>
-(epstopdf)             \includegraphics on input line 165.
+(epstopdf)             \includegraphics on input line 205.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/fig1-eps-converted-to.pdf, id=31, 584.1825pt x 294.09875pt>
+<figs/fig1-eps-converted-to.pdf, id=38, 584.1825pt x 294.09875pt>
 File: figs/fig1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/fig1-eps-converted-to.pdf>
-Package pdftex.def Info: figs/fig1-eps-converted-to.pdf used on input line 165.
+Package pdftex.def Info: figs/fig1-eps-converted-to.pdf used on input line 205.
 
 (pdftex.def)             Requested size: 227.62204pt x 114.59483pt.
- [7 <./figs/fig1-eps-converted-to.pdf>]
-[8]
+ [9 <./figs/fig1-eps-converted-to.pdf>]
+[10]
 
-LaTeX Warning: File `figs/fig2.eps' not found on input line 188.
+LaTeX Warning: File `figs/fig2.eps' not found on input line 228.
 
 Package epstopdf Info: Source file: <figs/fig2.eps>
 (epstopdf)             Output file: <figs/fig2-eps-converted-to.pdf>
@@ -404,19 +412,19 @@ Package epstopdf Info: Source file: <figs/fig2.eps>
 (epstopdf)                    size: 25456 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig2-eps-converted-to
 .pdf figs/fig2.eps>
-(epstopdf)             \includegraphics on input line 188.
+(epstopdf)             \includegraphics on input line 228.
 Package epstopdf Info: Output file is already uptodate.
-<figs/fig2-eps-converted-to.pdf, id=42, 454.69875pt x 794.97pt>
+<figs/fig2-eps-converted-to.pdf, id=48, 454.69875pt x 794.97pt>
 File: figs/fig2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/fig2-eps-converted-to.pdf>
-Package pdftex.def Info: figs/fig2-eps-converted-to.pdf used on input line 188.
+Package pdftex.def Info: figs/fig2-eps-converted-to.pdf used on input line 228.
 
 (pdftex.def)             Requested size: 142.26378pt x 248.73077pt.
- [9 <./figs/fig2-eps-converted-to.pdf>]
-[10] [11]
+ [11 <./figs/fig2-eps-converted-to.pdf>]
+[12] [13]
 
-LaTeX Warning: File `figs/fig4.eps' not found on input line 284.
+LaTeX Warning: File `figs/fig4.eps' not found on input line 324.
 
 Package epstopdf Info: Source file: <figs/fig4.eps>
 (epstopdf)             Output file: <figs/fig4-eps-converted-to.pdf>
@@ -424,18 +432,18 @@ Package epstopdf Info: Source file: <figs/fig4.eps>
 (epstopdf)                    size: 32534 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig4-eps-converted-to
 .pdf figs/fig4.eps>
-(epstopdf)             \includegraphics on input line 284.
+(epstopdf)             \includegraphics on input line 324.
 Package epstopdf Info: Output file is already uptodate.
-<figs/fig4-eps-converted-to.pdf, id=60, 542.025pt x 274.02374pt>
+<figs/fig4-eps-converted-to.pdf, id=67, 542.025pt x 274.02374pt>
 File: figs/fig4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/fig4-eps-converted-to.pdf>
-Package pdftex.def Info: figs/fig4-eps-converted-to.pdf used on input line 284.
+Package pdftex.def Info: figs/fig4-eps-converted-to.pdf used on input line 324.
 
 (pdftex.def)             Requested size: 227.62204pt x 115.07663pt.
- [12 <./figs/fig4-eps-converted-to.pdf>]
+ [14 <./figs/fig4-eps-converted-to.pdf>]
 
-LaTeX Warning: File `figs/fig5.eps' not found on input line 320.
+LaTeX Warning: File `figs/fig5.eps' not found on input line 360.
 
 Package epstopdf Info: Source file: <figs/fig5.eps>
 (epstopdf)             Output file: <figs/fig5-eps-converted-to.pdf>
@@ -443,18 +451,18 @@ Package epstopdf Info: Source file: <figs/fig5.eps>
 (epstopdf)                    size: 24336 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig5-eps-converted-to
 .pdf figs/fig5.eps>
-(epstopdf)             \includegraphics on input line 320.
+(epstopdf)             \includegraphics on input line 360.
 Package epstopdf Info: Output file is already uptodate.
-<figs/fig5-eps-converted-to.pdf, id=67, 454.69875pt x 794.97pt>
+<figs/fig5-eps-converted-to.pdf, id=74, 454.69875pt x 794.97pt>
 File: figs/fig5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/fig5-eps-converted-to.pdf>
-Package pdftex.def Info: figs/fig5-eps-converted-to.pdf used on input line 320.
+Package pdftex.def Info: figs/fig5-eps-converted-to.pdf used on input line 360.
 
 (pdftex.def)             Requested size: 142.26378pt x 248.73077pt.
- [13 <./figs/fig5-eps-converted-to.pdf>]
+ [15 <./figs/fig5-eps-converted-to.pdf>]
 
-LaTeX Warning: File `figs/fig3.eps' not found on input line 333.
+LaTeX Warning: File `figs/fig3.eps' not found on input line 373.
 
 Package epstopdf Info: Source file: <figs/fig3.eps>
 (epstopdf)             Output file: <figs/fig3-eps-converted-to.pdf>
@@ -462,17 +470,17 @@ Package epstopdf Info: Source file: <figs/fig3.eps>
 (epstopdf)                    size: 26609 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig3-eps-converted-to
 .pdf figs/fig3.eps>
-(epstopdf)             \includegraphics on input line 333.
+(epstopdf)             \includegraphics on input line 373.
 Package epstopdf Info: Output file is already uptodate.
-<figs/fig3-eps-converted-to.pdf, id=78, 613.29124pt x 682.55pt>
+<figs/fig3-eps-converted-to.pdf, id=84, 613.29124pt x 682.55pt>
 File: figs/fig3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/fig3-eps-converted-to.pdf>
-Package pdftex.def Info: figs/fig3-eps-converted-to.pdf used on input line 333.
+Package pdftex.def Info: figs/fig3-eps-converted-to.pdf used on input line 373.
 
 (pdftex.def)             Requested size: 227.62204pt x 253.32066pt.
- [14 <./figs/fig3-eps-converted-to.pdf>]
-[15] [16] [17] [18]
+ [16 <./figs/fig3-eps-converted-to.pdf>]
+[17] [18] [19] [20]
 Package epstopdf Info: Source file: <figs/zk.eps>
 (epstopdf)                    date: 2014-04-23 14:27:18
 (epstopdf)                    size: 47674 bytes
@@ -481,16 +489,16 @@ Package epstopdf Info: Source file: <figs/zk.eps>
 (epstopdf)                    size: 16706 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/zk-eps-converted-to.p
 df figs/zk.eps>
-(epstopdf)             \includegraphics on input line 451.
+(epstopdf)             \includegraphics on input line 491.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/zk-eps-converted-to.pdf, id=106, 613.29124pt x 568.1225pt>
+<figs/zk-eps-converted-to.pdf, id=113, 613.29124pt x 568.1225pt>
 File: figs/zk-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/zk-eps-converted-to.pdf>
-Package pdftex.def Info: figs/zk-eps-converted-to.pdf used on input line 451.
+Package pdftex.def Info: figs/zk-eps-converted-to.pdf used on input line 491.
 (pdftex.def)             Requested size: 199.16928pt x 184.49892pt.
- [19 <./figs/zk-eps-converted-to.pdf>]
+ [21 <./figs/zk-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/BQ.eps>
 (epstopdf)                    date: 2014-04-23 14:27:06
 (epstopdf)                    size: 3260459 bytes
@@ -499,49 +507,40 @@ Package epstopdf Info: Source file: <figs/BQ.eps>
 (epstopdf)                    size: 445528 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/BQ-eps-converted-to.p
 df figs/BQ.eps>
-(epstopdf)             \includegraphics on input line 472.
+(epstopdf)             \includegraphics on input line 512.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/BQ-eps-converted-to.pdf, id=120, 614.295pt x 794.97pt>
+<figs/BQ-eps-converted-to.pdf, id=126, 614.295pt x 794.97pt>
 File: figs/BQ-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/BQ-eps-converted-to.pdf>
-Package pdftex.def Info: figs/BQ-eps-converted-to.pdf used on input line 472.
+Package pdftex.def Info: figs/BQ-eps-converted-to.pdf used on input line 512.
 (pdftex.def)             Requested size: 227.62204pt x 294.57098pt.
- [20 <./figs/BQ-eps-converted-to.pdf>]
-[21] [22] [23] [24] <figs/EG_f.png, id=147, 1464.47125pt x 704.6325pt>
+ [22 <./figs/BQ-eps-converted-to.pdf>]
+[23] [24] [25] [26] <figs/EG_f.png, id=154, 1464.47125pt x 704.6325pt>
 File: figs/EG_f.png Graphic file (type png)
 
 <use figs/EG_f.png>
-Package pdftex.def Info: figs/EG_f.png used on input line 702.
+Package pdftex.def Info: figs/EG_f.png used on input line 742.
 (pdftex.def)             Requested size: 355.65944pt x 171.12584pt.
- [25 <./figs/EG_f.png>] [26] [27] [28] [29]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 805.
-
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 805.
- [30]
+ [27 <./figs/EG_f.png>] [28] [29] [30] [31] [32]
 Missing character: There is no Ì in font cmr10!
 Missing character: There is no ˆ in font cmr10!
- [31]
+ [33]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-[32] [33] (./source.aux)
+[34] [35] (./source.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4460 strings out of 493315
- 59473 string characters out of 6137904
- 132754 words of memory out of 5000000
- 7841 multiletter control sequences out of 15000+600000
+ 4459 strings out of 493315
+ 59462 string characters out of 6137904
+ 132757 words of memory out of 5000000
+ 7840 multiletter control sequences out of 15000+600000
  11900 words of font info for 46 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,9n,26p,1504b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -562,10 +561,10 @@ ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
 e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
 013/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on source.pdf (33 pages, 1104912 bytes).
+Output written on source.pdf (35 pages, 1109104 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
+ 238 PDF objects out of 1000 (max. 8388607)
+ 164 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
